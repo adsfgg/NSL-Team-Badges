@@ -1,2 +1,2 @@
 # NSL-Team-Badges
-Badge repository for NSL Teams
+Repository of scoreboard badges for NSL Team members to display in-game.
