@@ -1,6 +1,6 @@
 name        = "NSL Team Badges"
-source_dir  = "source/"
-output_dir  = "output/"
+source_dir  = "source"
+output_dir  = "output"
 description = [=[[h1]NSL Team Badges[/h1]
 
 Display NSL team badges on the scoreboard.
@@ -15,6 +15,6 @@ Contact the NSL admins with a link to your NSL team webpage and your desired bad
 
 Thanks to SupaFred for making this originally, and Keats & Yeats for maintaining it. <3]=]
 image       = "preview.jpg"
-tag_modtype = ""
-tag_support = ""
-publish_id  = 1570569142
+tag_modtype = "Look and Feel"
+tag_support = "Must be run on Server"
+publish_id = 1570569142
