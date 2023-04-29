@@ -1,0 +1,20 @@
+name        = "NSL Team Badges"
+source_dir  = "source/"
+output_dir  = "output/"
+description = [=[[h1]NSL Team Badges[/h1]
+
+Display NSL team badges on the scoreboard.
+
+[h2]Usage:[/h2]
+Put it on your server, along with Shine Administration and [Shine] Epsilon. Badges+ is optional.
+
+Enable the Shine plugin `epsilonbadges`, then go to EpsilonBadges.json and set `ENSLTeams` to `true`.
+
+[h2]Adding a badge:[/h2]
+Contact the NSL admins with a link to your NSL team webpage and your desired badge image. Badges are 32-by-32px DDS images. Transparency is supported.
+
+Thanks to SupaFred for making this originally, and Keats & Yeats for maintaining it. <3]=]
+image       = "preview.jpg"
+tag_modtype = ""
+tag_support = ""
+publish_id  = 1570569142
