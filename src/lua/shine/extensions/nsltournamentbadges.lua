@@ -32,7 +32,7 @@ Shine.Hook.Add( "ClientConnect", "ApplyNSLBadges", function ( Client )
         local badge = "nsl-april-fools"
         local name = "NSL Fellow"
 
-        local setBadge = GiveBadge(Client:GetUserId(), badge, 5)
+        local setBadge = GiveBadge(Client:GetUserId(), badge, 6)
         if not setBadge then
             return
         end
