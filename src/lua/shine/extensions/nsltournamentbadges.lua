@@ -27,6 +27,23 @@ function Plugin:Cleanup()
 end
 
 Shine.Hook.Add( "ClientConnect", "ApplyNSLBadges", function ( Client )
+    -- NSL April Fools (Only if NSL mod is running)
+    if kNSLPluginBuild then
+        local badge = "nsl-april-fools"
+        local name = "NSL Fellow"
+
+        local setBadge = GiveBadge(Client:GetUserId(), badge, 5)
+        if not setBadge then
+            return
+        end
+
+        local setBadgeName = SetFormalBadgeName(badge, name)
+        if not setBadgeName then
+            return
+        end
+        return
+    end
+
     for _,data in ipairs(Plugin.badgeData) do
         local players = data['players']
         local badge = data['id']
