@@ -41,7 +41,6 @@ Shine.Hook.Add( "ClientConnect", "ApplyNSLBadges", function ( Client )
         if not setBadgeName then
             return
         end
-        return
     end
 
     for _,data in ipairs(Plugin.badgeData) do
