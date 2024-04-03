@@ -42,7 +42,6 @@ Shine.Hook.Add( "ClientConnect", "ApplyNSLBadges", function ( Client )
                 if not setBadgeName then
                     return
                 end
-                return
             end
         end
     end
